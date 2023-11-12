@@ -27,6 +27,7 @@ Output: S = a ± b(modp)
 ```
 
 ### Block Diagarm 
-![Mod_Add_Sub](https://github.com/MahmouodMagdi/Modualr-Adder-Subtractor/assets/72949261/8b7350de-5789-4a73-b1c8-81036ddc649c)
+![Pipelined_Mod_Add_Sub](https://github.com/MahmouodMagdi/Modualr-Adder-Subtractor/assets/72949261/5dd901de-8ef5-4501-90a1-b0a5d1c60fb5)
+
 
 
