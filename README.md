@@ -1,5 +1,5 @@
 # Modualr-Adder-Subtractor
-Hardware Implementation of a Pipelined Modular Adder/Subtractor which is used for Elliptic Curve Cryptography Scalar Multiplication "ECSM" Operations 
+Hardware Implementation of a 256-bit Pipelined Modular Adder/Subtractor which is used for Elliptic Curve Cryptography Scalar Multiplication "ECSM" Operations 
  
 ### Modular addition/subtraction algorithm
 - Steps from 2 :7 represent the modular addition operatio and the steps 10 : 15 represent the modular subtraction
