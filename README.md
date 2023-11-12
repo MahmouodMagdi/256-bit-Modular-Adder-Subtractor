@@ -31,7 +31,7 @@ Output: S = a ± b(modp)
 
 ### Hardware Architecture 
 
-- The hardware architecture is shown in the figure below
+- The pipelined hardware architecture is shown in the figure below
 - In the case of **modular addition S = a + b(modp)**:
     - The signal **SEL_OP** shall be set to **0**
     - The *first adder* executes *addition* between the two inputs a, b providing sum S1 and carry Cout1
@@ -43,10 +43,11 @@ Output: S = a ± b(modp)
    - The *first adder* performs *subtraction* between the inputs a, b
    - The *second one adds* the result S1 to the modulo p.
    - Similarly to the first case, S1 and S2 are multiplexed according to to line 12 of the Algorithm
+
      
 ![Pipelined_Mod_Add_Sub](https://github.com/MahmouodMagdi/Modualr-Adder-Subtractor/assets/72949261/5dd901de-8ef5-4501-90a1-b0a5d1c60fb5)
 
 
 * This design is pipelined for better performance
-* It requires 4 cycles to calculate the result with frequency up to **110 MHz**
+* It requires **4 cycles** to calculate the result with frequency up to **110 MHz** 
   
