@@ -46,7 +46,8 @@ Output: S = a ± b(modp)
 
 - Subtraction operation is done using the 2's complement 
      
-![Pipelined_Mod_Add_Sub](https://github.com/MahmouodMagdi/Modualr-Adder-Subtractor/assets/72949261/5dd901de-8ef5-4501-90a1-b0a5d1c60fb5)
+![Pipelined_Mod_Add_Sub](https://github.com/MahmouodMagdi/Modualr-Adder-Subtractor/assets/72949261/ffdae362-3a2f-4b38-80f1-984c1336e2a8)
+
 
 
 * This design is pipelined for better performance
