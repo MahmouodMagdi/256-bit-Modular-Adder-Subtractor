@@ -44,6 +44,7 @@ Output: S = a ± b(modp)
    - The *second one adds* the result S1 to the modulo p.
    - Similarly to the first case, S1 and S2 are multiplexed according to to line 12 of the Algorithm
 
+- Subtraction operation is done using the 2's complement 
      
 ![Pipelined_Mod_Add_Sub](https://github.com/MahmouodMagdi/Modualr-Adder-Subtractor/assets/72949261/5dd901de-8ef5-4501-90a1-b0a5d1c60fb5)
 
