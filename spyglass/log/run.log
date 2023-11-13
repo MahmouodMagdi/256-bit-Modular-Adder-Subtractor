@@ -1,0 +1,2150 @@
++------------------------------------------------------------------+
+|                                                                  |
+| SpyGlass Predictive Analyzer(R) - Version SpyGlass_vL-2016.06    |
+| Last compiled on May 20 2016                                     |
+|                                                                  |
+| All Rights Reserved. Use, disclosure or duplication              |
+| without prior written permission of Synopsys Inc. is prohibited. |
+| Technical support: email spyglass_support@synopsys.com.          |
++------------------------------------------------------------------+
+
+To access quickstart manual, please use `man quickstart'
+
+INFO: executing tcl startup file `spy.tcl' ...
+current_methodology: info: methodology is now `/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff'
+read_file -type hdl /home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv
+read_file -type hdl /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv
+current_methodology: info: methodology is now `/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff'
+current_goal: info: loading goal `lint/lint_rtl' with top `Mod_Add_Sub' (in progress)
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+current_goal: info: finished loading goal `lint/lint_rtl' (ok)
+
+INFO:    SpyGlass will run goal(s) 'lint/lint_rtl'.
+
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading openmore (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/openmore)
+Loading starc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc)
+Loading starc2005 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2005)
+Loading erc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/erc)
+Loading simulation (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/simulation)
+Loading lint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lint)
+Loading latch (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/latch)
+Loading morelint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/morelint)
+Loading timing (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/timing)
+Loading starc2002 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2002)
+Loading Audits (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/Audits)
+Loading area (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/area)
+Loading miscellaneous (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/miscellaneous)
+Loading starcad-21 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starcad-21)
+Loading txv (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/txv)
+
+TXV_INFO Parameter txv_extract_domain will be renamed to txv_domain_mode in future!
+
+Loading power_est (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/power_est)
+Loading lowpower (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lowpower)
+Loading dft_dsm (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/dft_dsm)
+Loading dft (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/dft)
+Loading constraints (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/constraints)
+Loading const_intern1 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/constraints)
+Loading clock-reset (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock)
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [6]    Work Directory `./Mod_Add_Sub/Mod_Add_Sub/WORK' does not exist.
+
+INFO [75]    Creating the Work Directory `./Mod_Add_Sub/Mod_Add_Sub/WORK/64' for 64bit  precompiled dump.
+Checking Rule SGDC_power_est29 (Rule 1 of total 277) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule PECHECK04 (Rule 2 of total 277) .... done (Time = 0.14s, Memory = 15.0K)
+Checking Rule PECHECK18 (Rule 3 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PEMVDD01 (Rule 4 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck01 (Rule 5 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 6 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 7 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 8 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 9 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 10 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 11 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 12 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 13 of total 277) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_require_path03 (Rule 14 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 15 of total 277) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_voltagedomain05 (Rule 16 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 17 of total 277) .... done (Time = 0.00s, Memory = 4.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 18 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 19 of total 277) .... done (Time = 0.00s, Memory = 3.8K)
+Checking Rule SGDC_supply01 (Rule 20 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 21 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 22 of total 277) .... done (Time = 0.00s, Memory = 1.6K)
+Checking Rule SGDC_waive03 (Rule 23 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 24 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 25 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 26 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 27 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 28 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 29 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 30 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 31 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 32 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 33 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 34 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 35 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 36 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 37 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 38 of total 277) .... done (Time = 0.00s, Memory = 1.6K)
+Checking Rule SGDC_waive36 (Rule 39 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 40 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 41 of total 277) .... done (Time = 0.00s, Memory = 15.5K)
+Checking Rule SGDC_libgroup01 (Rule 42 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 43 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 44 of total 277) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_power_data01 (Rule 45 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 46 of total 277) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_abstract_port06 (Rule 47 of total 277) .... done (Time = 0.00s, Memory = 4.8K)
+Checking Rule SGDC_abstract_port14 (Rule 48 of total 277) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_abstract_port15 (Rule 49 of total 277) .... done (Time = 0.08s, Memory = 4.0K)
+Checking Rule SGDC_abstract_port18 (Rule 50 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 51 of total 277) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule CMD_ignorelibs01 (Rule 52 of total 277) .... done (Time = 0.00s, Memory = -20.6K)
+Checking Rule ReportRuleNotRun (Rule 53 of total 277) .... done (Time = 0.03s, Memory = -27.0K)
+Checking Rule STARC05-2.3.1.2c (Rule 54 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442a (Rule 55 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442b (Rule 56 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442c (Rule 57 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442f (Rule 58 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule mixedsenselist (Rule 59 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule badimplicitSM1 (Rule 60 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule badimplicitSM2 (Rule 61 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule badimplicitSM4 (Rule 62 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule bothedges (Rule 63 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule BlockHeader (Rule 64 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W421 (Rule 65 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.1.6.5 (Rule 66 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 67 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 68 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv" ....
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv" ....
+ Elaborating Top Verilog Design Unit 'Mod_Add_Sub' ..... done
+Checking Rule ElabSummary (Rule 69 of total 277) .... done (Time = 0.00s, Memory = 8.8K)
+Checking Rule ReportCheckDataSummary (Rule 70 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 71 of total 277)
+ Detected 1 top level design units:
+     Mod_Add_Sub
+ .... done (Time = 0.00s, Memory = 0.6K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 72 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK09 (Rule 73 of total 277) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Ac_multitop01 (Rule 74 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 75 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 76 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 77 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 78 of total 277) .... done (Time = 0.00s, Memory = 0.5K)
+Checking Rule sim_race02 (Rule 79 of total 277) .... done (Time = 0.00s, Memory = 5.2K)
+Checking Rule W339a (Rule 80 of total 277) .... done (Time = 0.00s, Memory = -0.3K)
+Checking Rule W416 (Rule 81 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule mixedsenselist (Rule 82 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W110a (Rule 83 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa (Rule 84 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _deltaDelay (Rule 85 of total 277) .... done (Time = 0.00s, Memory = 1.9K)
+Checking Rule _deltaDelay (Rule 86 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule preReq_ConsCase2 (Rule 87 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule preReq_ConsCase (Rule 88 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-AlwaysParamSetup (Rule 89 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-ProcessParamSetup (Rule 90 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Latch_VePreReqRule (Rule 91 of total 277) .... done (Time = 0.01s, Memory = -0.1K)
+Checking Rule CheckCelldefine (Rule 92 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_RegOutputs (Rule 93 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.1.4.5 (Rule 94 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule STARC05-2.3.1.5b (Rule 95 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.3.3.1 (Rule 96 of total 277) .... done (Time = 0.00s, Memory = 4.9K)
+Checking Rule STARC05-2.3.3.1 (Rule 97 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.11.3.1 (Rule 98 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_STARC05-1.6.2.1 (Rule 99 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_STARC-1.6.2.1 (Rule 100 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.10.1.4a (Rule 101 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule W496b (Rule 102 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W317 (Rule 103 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W422 (Rule 104 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule W426 (Rule 105 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W480 (Rule 106 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule W481a (Rule 107 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W481b (Rule 108 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W422 (Rule 109 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W156 (Rule 110 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W292 (Rule 111 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W71 (Rule 112 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W287b (Rule 113 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W293 (Rule 114 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W398 (Rule 115 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W421 (Rule 116 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W424 (Rule 117 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W467 (Rule 118 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_RegInputOutputs (Rule 119 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PragmaComments-ML (Rule 120 of total 277) .... done (Time = 0.32s, Memory = 68.8K)
+Checking Rule PragmaComments-ML (Rule 121 of total 277) .... done (Time = 0.00s, Memory = -0.8K)
+Checking Rule CheckDelayTimescale-ML (Rule 122 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_InclFileSetup-ML (Rule 123 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+    Checking Rule syncRstReq (Rule 124 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 125 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 126 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 127 of total 277) .... done (Time = 0.00s, Memory = 0.9K)
+    Checking Rule Prereqs_STARC-2.3.6.1 (Rule 128 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 129 of total 277) .... done (Time = 0.00s, Memory = 3.8K)
+    Checking Rule STARC05-2.1.5.3 (Rule 130 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.2.3.3 (Rule 131 of total 277) .... done (Time = 0.00s, Memory = -4.6K)
+    Checking Rule STARC05-2.3.1.6 (Rule 132 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.2.3 (Rule 133 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.3.2a (Rule 134 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.11.3.1 (Rule 135 of total 277) .... done (Time = 0.00s, Memory = 1.4K)
+    Checking Rule STARC05-2.1.3.1 (Rule 136 of total 277) .... done (Time = 0.00s, Memory = 16.5K)
+    Checking Rule STARC05-2.10.1.4b (Rule 137 of total 277) .... done (Time = 0.00s, Memory = -0.1K)
+    Checking Rule W110 (Rule 138 of total 277) .... done (Time = 0.00s, Memory = -0.1K)
+    Checking Rule W122 (Rule 139 of total 277) .... done (Time = 0.00s, Memory = 0.3K)
+    Checking Rule W496a (Rule 140 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W19 (Rule 141 of total 277) .... done (Time = 0.00s, Memory = 1.0K)
+    Checking Rule W66 (Rule 142 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W116 (Rule 143 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W123 (Rule 144 of total 277) .... done (Time = 0.00s, Memory = 30.0K)
+    Checking Rule W156 (Rule 145 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W215 (Rule 146 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W216 (Rule 147 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W218 (Rule 148 of total 277) .... done (Time = 0.00s, Memory = 4.8K)
+    Checking Rule W224 (Rule 149 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W263 (Rule 150 of total 277) .... done (Time = 0.00s, Memory = 3.5K)
+    Checking Rule W289 (Rule 151 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W337 (Rule 152 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W352 (Rule 153 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W362 (Rule 154 of total 277) .... done (Time = 0.00s, Memory = 0.8K)
+    Checking Rule W415a (Rule 155 of total 277) .... done (Time = 0.00s, Memory = -4.6K)
+    Checking Rule W486 (Rule 156 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W499 (Rule 157 of total 277) .... done (Time = 0.00s, Memory = -0.5K)
+    Checking Rule W502 (Rule 158 of total 277) .... done (Time = 0.00s, Memory = 0.8K)
+    Checking Rule W116 (Rule 159 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 160 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W123 (Rule 161 of total 277) .... done (Time = 0.00s, Memory = 0.6K)
+    Checking Rule W71 (Rule 162 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W240 (Rule 163 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W240 (Rule 164 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W287a (Rule 165 of total 277) .... done (Time = 0.00s, Memory = -41.9K)
+    Checking Rule W293 (Rule 166 of total 277) .... done (Time = 0.00s, Memory = 7.0K)
+    Checking Rule W398 (Rule 167 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W424 (Rule 168 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W467 (Rule 169 of total 277) .... done (Time = 0.00s, Memory = 1.6K)
+    Checking Rule W505 (Rule 170 of total 277) .... done (Time = 0.00s, Memory = 5.9K)
+    Checking Rule W505 (Rule 171 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W528 (Rule 172 of total 277) .... done (Time = 0.01s, Memory = 0.2K)
+    Checking Rule W528 (Rule 173 of total 277) .... done (Time = 0.11s, Memory = 645.4K)
+    Checking Rule Prereqs_Usage (Rule 174 of total 277) .... done (Time = 0.00s, Memory = -16.0K)
+    Checking Rule Postreqs_CheckFuncTask (Rule 175 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 176 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 177 of total 277) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule ReportPortInfo-ML (Rule 178 of total 277) .... done (Time = 0.00s, Memory = 3.1K)
+    Checking Rule NoAssignX-ML (Rule 179 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ParamWidthMismatch-ML (Rule 180 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Postreqs_Usage_ML (Rule 181 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule NoXInCase-ML (Rule 182 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+    Checking Rule syncRstReq (Rule 124 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 125 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 126 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 127 of total 277) .... done (Time = 0.00s, Memory = 0.9K)
+    Checking Rule Prereqs_STARC-2.3.6.1 (Rule 128 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 129 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.1.5.3 (Rule 130 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.2.3.3 (Rule 131 of total 277) .... done (Time = 0.00s, Memory = -10.6K)
+    Checking Rule STARC05-2.3.1.6 (Rule 132 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.2.3 (Rule 133 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.3.2a (Rule 134 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.11.3.1 (Rule 135 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.1.3.1 (Rule 136 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.1.4b (Rule 137 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W110 (Rule 138 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 139 of total 277) .... done (Time = 0.00s, Memory = 1.6K)
+    Checking Rule W496a (Rule 140 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W19 (Rule 141 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W66 (Rule 142 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W116 (Rule 143 of total 277) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule W123 (Rule 144 of total 277) .... done (Time = 0.02s, Memory = -15.5K)
+    Checking Rule W156 (Rule 145 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W215 (Rule 146 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W216 (Rule 147 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W218 (Rule 148 of total 277) .... done (Time = 0.00s, Memory = 11.4K)
+    Checking Rule W224 (Rule 149 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W263 (Rule 150 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W289 (Rule 151 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W337 (Rule 152 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W352 (Rule 153 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W362 (Rule 154 of total 277) .... done (Time = 0.00s, Memory = 0.3K)
+    Checking Rule W415a (Rule 155 of total 277) .... done (Time = 0.00s, Memory = -8.8K)
+    Checking Rule W486 (Rule 156 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W499 (Rule 157 of total 277) .... done (Time = 0.00s, Memory = -0.2K)
+    Checking Rule W502 (Rule 158 of total 277) .... done (Time = 0.00s, Memory = 9.2K)
+    Checking Rule W116 (Rule 159 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 160 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W123 (Rule 161 of total 277) .... done (Time = 0.00s, Memory = 0.6K)
+    Checking Rule W71 (Rule 162 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W240 (Rule 163 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W240 (Rule 164 of total 277) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W287a (Rule 165 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W293 (Rule 166 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W398 (Rule 167 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W424 (Rule 168 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W467 (Rule 169 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W505 (Rule 170 of total 277) .... done (Time = 0.01s, Memory = 4.2K)
+    Checking Rule W505 (Rule 171 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W528 (Rule 172 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W528 (Rule 173 of total 277) .... done (Time = 0.11s, Memory = 645.4K)
+    Checking Rule Prereqs_Usage (Rule 174 of total 277) .... done (Time = 0.00s, Memory = -16.0K)
+    Checking Rule Postreqs_CheckFuncTask (Rule 175 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 176 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 177 of total 277) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule ReportPortInfo-ML (Rule 178 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule NoAssignX-ML (Rule 179 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ParamWidthMismatch-ML (Rule 180 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Postreqs_Usage_ML (Rule 181 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule NoXInCase-ML (Rule 182 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_meta_design_hier01 (Rule 183 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+ Synthesizing module: carry_look_ahead_adder (elaborated name: carry_look_ahead_adder) ... (Module 1 of total 2)  done 
+ Synthesizing module: Mod_Add_Sub (elaborated name: Mod_Add_Sub) ... (Module 2 of total 2)  done 
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 184 of total 277) .... done (Time = 0.01s, Memory = -7.3K)
+
+INFO [234]    Saving design database in directory './Mod_Add_Sub/Mod_Add_Sub/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
+              done
+
+Checking Rule SGDC_waive37 (Rule 185 of total 277) .... done (Time = 0.00s, Memory = -112.0K)
+Checking Rule SGDC_waive24 (Rule 186 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 187 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 188 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 189 of total 277) .... done (Time = 0.00s, Memory = -16.0K)
+Checking Rule Txv_SvaSetup01 for module carry_look_ahead_adder (Rule 190 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module carry_look_ahead_adder (Rule 191 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module carry_look_ahead_adder (Rule 192 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module carry_look_ahead_adder (Rule 193 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module carry_look_ahead_adder (Rule 194 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module carry_look_ahead_adder (Rule 195 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module carry_look_ahead_adder (Rule 196 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module carry_look_ahead_adder (Rule 197 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC-1.3.2.2_prereq for module carry_look_ahead_adder (Rule 198 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W336 for module carry_look_ahead_adder (Rule 199 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W414 for module carry_look_ahead_adder (Rule 200 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W450L for module carry_look_ahead_adder (Rule 201 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module carry_look_ahead_adder (Rule 202 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RegInputOutput-ML for module carry_look_ahead_adder (Rule 203 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.7 for module carry_look_ahead_adder (Rule 204 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.9 for module carry_look_ahead_adder (Rule 205 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module Mod_Add_Sub (Rule 190 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module Mod_Add_Sub (Rule 191 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module Mod_Add_Sub (Rule 192 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module Mod_Add_Sub (Rule 193 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module Mod_Add_Sub (Rule 194 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module Mod_Add_Sub (Rule 195 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module Mod_Add_Sub (Rule 196 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module Mod_Add_Sub (Rule 197 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC-1.3.2.2_prereq for module Mod_Add_Sub (Rule 198 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W336 for module Mod_Add_Sub (Rule 199 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W414 for module Mod_Add_Sub (Rule 200 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W450L for module Mod_Add_Sub (Rule 201 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module Mod_Add_Sub (Rule 202 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RegInputOutput-ML for module Mod_Add_Sub (Rule 203 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.7 for module Mod_Add_Sub (Rule 204 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.9 for module Mod_Add_Sub (Rule 205 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 72 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 206 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 207 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 208 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 209 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset02 (Rule 210 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset03 (Rule 211 of total 277) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_waive23 (Rule 212 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 213 of total 277) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 214 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 215 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 216 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 217 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 218 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 219 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 220 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 221 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 222 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 223 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 224 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 225 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 226 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 227 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 228 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LINT_portReten (Rule 229 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 230 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule InferLatch (Rule 231 of total 277) .... done (Time = 0.00s, Memory = 22.3K)
+Checking Rule UndrivenInTerm-ML (Rule 232 of total 277) .... done (Time = 0.09s, Memory = -12.8K)
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_set_case_analysis_LC (Rule 233 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule BufClock (Rule 234 of total 277) .... done (Time = 0.02s, Memory = 1033.5K)
+Checking Rule CombLoop (Rule 235 of total 277) .... done (Time = 0.02s, Memory = 506.6K)
+Checking Rule STARC05-2.5.1.2 (Rule 236 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-1.3.1.3 (Rule 237 of total 277) .... done (Time = 0.01s, Memory = -0.2K)
+Checking Rule STARC05-1.4.3.4 (Rule 238 of total 277) .... done (Time = 0.00s, Memory = 5.2K)
+Checking Rule FlopClockConstant (Rule 239 of total 277) .... done (Time = 0.01s, Memory = 3.7K)
+Checking Rule FlopSRConst (Rule 240 of total 277) .... done (Time = 0.00s, Memory = 7.9K)
+Checking Rule FlopEConst (Rule 241 of total 277) .... done (Time = 0.00s, Memory = -9.8K)
+Checking Rule checkPinConnectedToSupply (Rule 242 of total 277) .... done (Time = 0.00s, Memory = -3.4K)
+Checking Rule W392 (Rule 243 of total 277) .... done (Time = 0.02s, Memory = 601.2K)
+Checking Rule W415 (Rule 244 of total 277) .... done (Time = 0.02s, Memory = -1.5K)
+Checking Rule LatchFeedback (Rule 245 of total 277) .... done (Time = 0.02s, Memory = 2.0K)
+Checking Rule STARC05-2.4.1.5 (Rule 246 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-1.2.1.2 (Rule 247 of total 277) .... done (Time = 0.01s, Memory = -1.1K)
+Checking Rule AnalyzeBBox (Rule 248 of total 277) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule ReportCheckDataSummary (Rule 70 of total 277) .... done (Time = 0.00s, Memory = 0.0K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_rtl/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_rtl
+   Command-line read  :      0 error,      0 warning,      1 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         Mod_Add_Sub   (file: /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      0 warning,      3 information messages
+
+  Total Number of Generated Messages     :         3 (0 error, 0 warning, 3 Infos)
+  Number of Reported Messages            :         3 (0 error, 0 warning, 3 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_rtl
+   Top Module         :      Mod_Add_Sub
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_rtl/ 
+
+   SpyGlass LogFile: 
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/Mod_Add_Sub/lint/lint_rtl/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     <Not Available>
+   
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      0 Warnings,      3 Infos
+---------------------------------------------------------------------------------------------------
+   
+---------------------------------------------------------------------------------------------------
+ 
+run_goal: info: spyglass.log successfully updated with goal summary
+run_goal: info: setting design top `Mod_Add_Sub' as current_design
+current_goal: warning: design query data not saved for last active goal `lint/lint_rtl'
+                       (use `save_goal' command or enable `auto_save' option to save design query data for subsequent goals)
+current_goal: info: loading goal `lint/lint_turbo_rtl' with top `Mod_Add_Sub' (in progress)
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+current_goal: info: finished loading goal `lint/lint_turbo_rtl' (ok)
+
+INFO:    SpyGlass will run goal(s) 'lint/lint_turbo_rtl'.
+
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+
+INFO [216]    Disabling save-restore as save-restore is not allowed with policy 'auto-verify
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading openmore (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/openmore)
+Loading starc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc)
+Loading starc2005 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2005)
+Loading erc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/erc)
+Loading simulation (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/simulation)
+Loading lint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lint)
+Loading latch (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/latch)
+Loading morelint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/morelint)
+Loading timing (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/timing)
+Loading auto-verify (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/auto-verify)
+Loading starc2002 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2002)
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+ Reading sgdc file "/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./Mod_Add_Sub/Mod_Add_Sub/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 316) .... done (Time = 0.00s, Memory = 1.0K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 316) .... done (Time = 0.01s, Memory = -0.4K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoredOverlappingRules (Rule 5 of total 316) .... done (Time = 0.00s, Memory = -4.9K)
+Checking Rule TurboModeStatus (Rule 6 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 7 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 8 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 9 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 10 of total 316) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 11 of total 316) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_require_path03 (Rule 12 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_require_value03 (Rule 13 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_voltagedomain05 (Rule 14 of total 316) .... done (Time = 0.00s, Memory = 5.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 15 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_voltagedomain07 (Rule 16 of total 316) .... done (Time = 0.00s, Memory = 10.5K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 17 of total 316) .... done (Time = 0.00s, Memory = 3.3K)
+Checking Rule SGDC_supply01 (Rule 18 of total 316) .... done (Time = 0.01s, Memory = 2.5K)
+Checking Rule SGDC_waive01 (Rule 19 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 20 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 21 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 22 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 23 of total 316) .... done (Time = 0.00s, Memory = -1.1K)
+Checking Rule SGDC_waive06 (Rule 24 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 25 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 26 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 27 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 28 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 29 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 30 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 31 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 32 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 33 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 34 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 35 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 36 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 37 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 38 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 39 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_libgroup01 (Rule 40 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 41 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 42 of total 316) .... done (Time = 0.00s, Memory = -3.6K)
+Checking Rule SGDC_power_data01 (Rule 43 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_ungroup01 (Rule 44 of total 316) .... done (Time = 0.00s, Memory = 2.2K)
+Checking Rule SGDC_abstract_port06 (Rule 45 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_abstract_port14 (Rule 46 of total 316) .... done (Time = 0.00s, Memory = 10.1K)
+Checking Rule SGDC_abstract_port15 (Rule 47 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_abstract_port18 (Rule 48 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule sdc_init_rule (Rule 49 of total 316) .... done (Time = 0.00s, Memory = 3.8K)
+Checking Rule CMD_ignorelibs01 (Rule 50 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 51 of total 316) .... done (Time = 0.03s, Memory = -22.1K)
+Checking Rule STARC05-2.3.1.2c (Rule 52 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442a (Rule 53 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442b (Rule 54 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W442c (Rule 55 of total 316) .... done (Time = 0.00s, Memory = -0.5K)
+Checking Rule W442f (Rule 56 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule mixedsenselist (Rule 57 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule badimplicitSM1 (Rule 58 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule badimplicitSM2 (Rule 59 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule badimplicitSM4 (Rule 60 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule bothedges (Rule 61 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule BlockHeader (Rule 62 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W421 (Rule 63 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_license01 (Rule 64 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_setup_checks01 (Rule 65 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity01 (Rule 66 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.1.6.5 (Rule 67 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 68 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 69 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv" ....
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv" ....
+ Elaborating Top Verilog Design Unit 'Mod_Add_Sub' ..... done
+Checking Rule ElabSummary (Rule 70 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 71 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 72 of total 316)
+ Detected 1 top level design units:
+     Mod_Add_Sub
+ .... done (Time = 0.00s, Memory = 0.6K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 73 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 74 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 75 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 76 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 77 of total 316) .... done (Time = 0.00s, Memory = -0.6K)
+Checking Rule sim_race02 (Rule 78 of total 316) .... done (Time = 0.00s, Memory = 5.6K)
+Checking Rule W339a (Rule 79 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule W416 (Rule 80 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule mixedsenselist (Rule 81 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W110a (Rule 82 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule preReq_ConsCase2 (Rule 83 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule preReq_ConsCase (Rule 84 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-AlwaysParamSetup (Rule 85 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-ProcessParamSetup (Rule 86 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Latch_VePreReqRule (Rule 87 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 88 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_RegOutputs (Rule 89 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.1.4.5 (Rule 90 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.3.1.5b (Rule 91 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.3.3.1 (Rule 92 of total 316) .... done (Time = 0.00s, Memory = 5.2K)
+Checking Rule STARC05-2.3.3.1 (Rule 93 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.11.3.1 (Rule 94 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.10.1.4a (Rule 95 of total 316) .... done (Time = 0.01s, Memory = -0.4K)
+Checking Rule W496b (Rule 96 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W317 (Rule 97 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W422 (Rule 98 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W426 (Rule 99 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W480 (Rule 100 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W481a (Rule 101 of total 316) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Rule W481b (Rule 102 of total 316) .... done (Time = 0.00s, Memory = 3.9K)
+Checking Rule W422 (Rule 103 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W156 (Rule 104 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W292 (Rule 105 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W71 (Rule 106 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W287b (Rule 107 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W293 (Rule 108 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W398 (Rule 109 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W421 (Rule 110 of total 316) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule W424 (Rule 111 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W467 (Rule 112 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_RegInputOutputs (Rule 113 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PragmaComments-ML (Rule 114 of total 316) .... done (Time = 0.01s, Memory = 68.0K)
+Checking Rule PragmaComments-ML (Rule 115 of total 316) .... done (Time = 0.00s, Memory = -3.0K)
+Checking Rule CheckDelayTimescale-ML (Rule 116 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_InclFileSetup-ML (Rule 117 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+    Checking Rule Prereqs_STARC-2.3.6.1 (Rule 118 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.1.5.3 (Rule 119 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.2.3.3 (Rule 120 of total 316) .... done (Time = 0.00s, Memory = 2.0K)
+    Checking Rule STARC05-2.3.1.6 (Rule 121 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.2.3 (Rule 122 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.11.3.1 (Rule 123 of total 316) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule STARC05-2.10.1.4b (Rule 124 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 125 of total 316) .... done (Time = 0.00s, Memory = 1.2K)
+    Checking Rule W496a (Rule 126 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W19 (Rule 127 of total 316) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule W66 (Rule 128 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W123 (Rule 129 of total 316) .... done (Time = 0.00s, Memory = 29.9K)
+    Checking Rule W156 (Rule 130 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W215 (Rule 131 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W216 (Rule 132 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W218 (Rule 133 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W224 (Rule 134 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W289 (Rule 135 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W337 (Rule 136 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W352 (Rule 137 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W415a (Rule 138 of total 316) .... done (Time = 0.00s, Memory = -3.0K)
+    Checking Rule W486 (Rule 139 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W499 (Rule 140 of total 316) .... done (Time = 0.00s, Memory = -0.2K)
+    Checking Rule W502 (Rule 141 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W116 (Rule 142 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 143 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W123 (Rule 144 of total 316) .... done (Time = 0.00s, Memory = 0.6K)
+    Checking Rule W240 (Rule 145 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W240 (Rule 146 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W287a (Rule 147 of total 316) .... done (Time = 0.00s, Memory = -25.6K)
+    Checking Rule W293 (Rule 148 of total 316) .... done (Time = 0.00s, Memory = 4.0K)
+    Checking Rule W398 (Rule 149 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W424 (Rule 150 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W505 (Rule 151 of total 316) .... done (Time = 0.00s, Memory = 4.1K)
+    Checking Rule W505 (Rule 152 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W528 (Rule 153 of total 316) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule W528 (Rule 154 of total 316) .... done (Time = 0.00s, Memory = 645.4K)
+    Checking Rule Prereqs_Usage (Rule 155 of total 316) .... done (Time = 0.00s, Memory = -16.0K)
+    Checking Rule Postreqs_CheckFuncTask (Rule 156 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 157 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 158 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ReportPortInfo-ML (Rule 159 of total 316) .... done (Time = 0.00s, Memory = 3.3K)
+    Checking Rule NoAssignX-ML (Rule 160 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ParamWidthMismatch-ML (Rule 161 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Postreqs_Usage_ML (Rule 162 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule NoXInCase-ML (Rule 163 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+    Checking Rule Prereqs_STARC-2.3.6.1 (Rule 118 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.1.5.3 (Rule 119 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.2.3.3 (Rule 120 of total 316) .... done (Time = 0.00s, Memory = -10.4K)
+    Checking Rule STARC05-2.3.1.6 (Rule 121 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.2.3 (Rule 122 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.11.3.1 (Rule 123 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule STARC05-2.10.1.4b (Rule 124 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 125 of total 316) .... done (Time = 0.00s, Memory = 1.6K)
+    Checking Rule W496a (Rule 126 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W19 (Rule 127 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W66 (Rule 128 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W123 (Rule 129 of total 316) .... done (Time = 0.01s, Memory = -10.0K)
+    Checking Rule W156 (Rule 130 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W215 (Rule 131 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W216 (Rule 132 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W218 (Rule 133 of total 316) .... done (Time = 0.00s, Memory = 6.4K)
+    Checking Rule W224 (Rule 134 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W289 (Rule 135 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W337 (Rule 136 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W352 (Rule 137 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W415a (Rule 138 of total 316) .... done (Time = 0.01s, Memory = -2.0K)
+    Checking Rule W486 (Rule 139 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W499 (Rule 140 of total 316) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule W502 (Rule 141 of total 316) .... done (Time = 0.00s, Memory = 6.2K)
+    Checking Rule W116 (Rule 142 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W122 (Rule 143 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W123 (Rule 144 of total 316) .... done (Time = 0.00s, Memory = 0.6K)
+    Checking Rule W240 (Rule 145 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W240 (Rule 146 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule W287a (Rule 147 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W293 (Rule 148 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W398 (Rule 149 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W424 (Rule 150 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W505 (Rule 151 of total 316) .... done (Time = 0.00s, Memory = 2.2K)
+    Checking Rule W505 (Rule 152 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W528 (Rule 153 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule W528 (Rule 154 of total 316) .... done (Time = 0.00s, Memory = 645.4K)
+    Checking Rule Prereqs_Usage (Rule 155 of total 316) .... done (Time = 0.00s, Memory = -16.0K)
+    Checking Rule Postreqs_CheckFuncTask (Rule 156 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 157 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 158 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ReportPortInfo-ML (Rule 159 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule NoAssignX-ML (Rule 160 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ParamWidthMismatch-ML (Rule 161 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Postreqs_Usage_ML (Rule 162 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule NoXInCase-ML (Rule 163 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+    Checking Rule Av_multitop01 (Rule 164 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 165 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 166 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule InitState (Rule 167 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 168 of total 316) .... done (Time = 0.00s, Memory = 5.2K)
+    Checking Rule Av_fsmreq01 (Rule 169 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 170 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 171 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 172 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 173 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 174 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 175 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 176 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 177 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 178 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 179 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 180 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 181 of total 316) .... done (Time = 0.00s, Memory = -0.3K)
+    Checking Rule _width02_prereq (Rule 182 of total 316) .... done (Time = 0.00s, Memory = 46.1K)
+    Checking Rule _width03_prereq (Rule 183 of total 316) .... done (Time = 0.00s, Memory = 6.3K)
+    Checking Rule _width04_prereq (Rule 184 of total 316) .... done (Time = 0.00s, Memory = 17.1K)
+    Checking Rule _signunsign01_prereq (Rule 185 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 186 of total 316) .... done (Time = 0.00s, Memory = -0.3K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 187 of total 316) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 188 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 189 of total 316) .... done (Time = 0.00s, Memory = -0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 190 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 191 of total 316) .... done (Time = 0.00s, Memory = 9.2K)
+    Checking Rule _formallint_preReq (Rule 192 of total 316) .... done (Time = 0.00s, Memory = -2.0K)
+    Checking Rule _avAddSynthNet (Rule 193 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+    Checking Rule Av_multitop01 (Rule 164 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 165 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 166 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 167 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 168 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 169 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 170 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 171 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 172 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 173 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 174 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 175 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 176 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 177 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 178 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 179 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 180 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 181 of total 316) .... done (Time = 0.00s, Memory = -8.0K)
+    Checking Rule _width02_prereq (Rule 182 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 183 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 184 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 185 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 186 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 187 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 188 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 189 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 190 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 191 of total 316) .... done (Time = 0.00s, Memory = -0.9K)
+    Checking Rule _formallint_preReq (Rule 192 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 193 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv
+    Checking Rule Av_complexity_req01 (Rule 194 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv
+    Checking Rule Av_complexity_req01 (Rule 194 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+ Synthesizing module: carry_look_ahead_adder (elaborated name: carry_look_ahead_adder) ... (Module 1 of total 2)  done 
+ Synthesizing module: Mod_Add_Sub (elaborated name: Mod_Add_Sub) ... (Module 2 of total 2)  done 
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 195 of total 316) .... done (Time = 0.01s, Memory = -7.1K)
+Checking Rule SGDC_waive37 (Rule 196 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 197 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 198 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 199 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 200 of total 316) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule LogNMuxPrereq for module carry_look_ahead_adder (Rule 201 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC-1.3.2.2_prereq for module carry_look_ahead_adder (Rule 202 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W336 for module carry_look_ahead_adder (Rule 203 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W414 for module carry_look_ahead_adder (Rule 204 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W450L for module carry_look_ahead_adder (Rule 205 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module carry_look_ahead_adder (Rule 206 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RegInputOutput-ML for module carry_look_ahead_adder (Rule 207 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module carry_look_ahead_adder (Rule 208 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module carry_look_ahead_adder (Rule 209 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module carry_look_ahead_adder (Rule 210 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module carry_look_ahead_adder (Rule 211 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module carry_look_ahead_adder (Rule 212 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.7 for module carry_look_ahead_adder (Rule 213 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.9 for module carry_look_ahead_adder (Rule 214 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module Mod_Add_Sub (Rule 201 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC-1.3.2.2_prereq for module Mod_Add_Sub (Rule 202 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W336 for module Mod_Add_Sub (Rule 203 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W414 for module Mod_Add_Sub (Rule 204 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule W450L for module Mod_Add_Sub (Rule 205 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module Mod_Add_Sub (Rule 206 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RegInputOutput-ML for module Mod_Add_Sub (Rule 207 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module Mod_Add_Sub (Rule 208 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module Mod_Add_Sub (Rule 209 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module Mod_Add_Sub (Rule 210 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module Mod_Add_Sub (Rule 211 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module Mod_Add_Sub (Rule 212 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.7 for module Mod_Add_Sub (Rule 213 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-2.5.1.9 for module Mod_Add_Sub (Rule 214 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 73 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 215 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 216 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 217 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 218 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_reset02 (Rule 219 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_reset03 (Rule 220 of total 316) .... done (Time = 0.00s, Memory = 2.5K)
+Checking Rule SGDC_waive23 (Rule 221 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 222 of total 316) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 223 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 224 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 225 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 226 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 227 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 228 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 229 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 230 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 231 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 232 of total 316) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 233 of total 316) .... done (Time = 0.00s, Memory = 0.9K)
+Checking Rule SGDC_abstract_port11 (Rule 234 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 235 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 236 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity_req02 (Rule 237 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 238 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LINT_portReten (Rule 239 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 240 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule InferLatch (Rule 241 of total 316) .... done (Time = 0.01s, Memory = 27.0K)
+Checking Rule UndrivenInTerm-ML (Rule 242 of total 316) .... done (Time = 0.10s, Memory = -5.8K)
+Checking Rule Av_casereq03 (Rule 243 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fsm_setup01 (Rule 244 of total 316) .... done (Time = 0.01s, Memory = -0.2K)
+Checking Rule Av_PortRetention (Rule 245 of total 316) .... done (Time = 0.00s, Memory = -0.1K)
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_set_case_analysis_LC (Rule 246 of total 316) .... done (Time = 0.00s, Memory = 0.9K)
+Checking Rule Av_IpblockTaggedNet (Rule 247 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule BufClock (Rule 248 of total 316) .... done (Time = 0.02s, Memory = 1057.8K)
+Checking Rule CombLoop (Rule 249 of total 316) .... done (Time = 0.01s, Memory = 509.9K)
+Checking Rule STARC05-2.5.1.2 (Rule 250 of total 316) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule STARC05-1.3.1.3 (Rule 251 of total 316) .... done (Time = 0.00s, Memory = -0.0K)
+Checking Rule STARC05-1.4.3.4 (Rule 252 of total 316) .... done (Time = 0.00s, Memory = 5.2K)
+Checking Rule FlopClockConstant (Rule 253 of total 316) .... done (Time = 0.00s, Memory = 19.2K)
+Checking Rule FlopSRConst (Rule 254 of total 316) .... done (Time = 0.00s, Memory = 2.1K)
+Checking Rule FlopEConst (Rule 255 of total 316) .... done (Time = 0.00s, Memory = -2.5K)
+Checking Rule checkPinConnectedToSupply (Rule 256 of total 316) .... done (Time = 0.00s, Memory = -20.3K)
+Checking Rule W392 (Rule 257 of total 316) .... done (Time = 0.01s, Memory = 600.9K)
+Checking Rule W415 (Rule 258 of total 316) .... done (Time = 0.02s, Memory = -1.2K)
+Checking Rule LatchFeedback (Rule 259 of total 316) .... done (Time = 0.02s, Memory = 2.0K)
+Checking Rule Av_initseq01 (Rule 260 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_init01 (Rule 261 of total 316)
+ .... done (Time = 0.11s, Memory = 595.1K)
+Checking Rule SGDC_av_meta_design_hier01 (Rule 262 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initstate01 (Rule 263 of total 316) .... done (Time = 0.06s, Memory = -109.9K)
+Checking Rule Av_sanity02 (Rule 264 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity06 (Rule 265 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _formal_anlysis_filter_prereq (Rule 266 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsmreq02 (Rule 267 of total 316) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule _fsm03_prereq (Rule 268 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm_contr01 (Rule 269 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_width_mismatch_assign (Rule 270 of total 316) .... done (Time = 0.00s, Memory = -2.8K)
+Checking Rule Av_width_mismatch_case (Rule 271 of total 316) .... done (Time = 0.01s, Memory = -1.1K)
+Checking Rule Av_width_mismatch_port (Rule 272 of total 316) .... done (Time = 0.00s, Memory = -9.7K)
+Checking Rule Av_width_mismatch_function (Rule 273 of total 316) .... done (Time = 0.00s, Memory = -1.7K)
+Checking Rule Av_signed_unsigned_mismatch (Rule 274 of total 316) .... done (Time = 0.01s, Memory = -0.4K)
+Checking Rule Av_width_mismatch_expr (Rule 275 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_width_mismatch_expr02 (Rule 276 of total 316) .... done (Time = 0.00s, Memory = -0.1K)
+Checking Rule Av_width_mismatch_expr03 (Rule 277 of total 316) .... done (Time = 0.00s, Memory = -1.9K)
+Checking Rule Av_dontcare_mismatch (Rule 278 of total 316) .... done (Time = 0.00s, Memory = 3.5K)
+Checking Rule Av_case_default_missing (Rule 279 of total 316) .... done (Time = 0.00s, Memory = -0.6K)
+Checking Rule Av_Info_Case_Analysis (Rule 280 of total 316) .... done (Time = 0.00s, Memory = -9.7K)
+Checking Rule Av_report01 (Rule 281 of total 316) .... done (Time = 0.00s, Memory = 2.1K)
+Checking Rule _advLintReport01 (Rule 282 of total 316) .... done (Time = 0.01s, Memory = -274.3K)
+Checking Rule STARC05-2.4.1.5 (Rule 283 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule STARC05-1.2.1.2 (Rule 284 of total 316) .... done (Time = 0.00s, Memory = -18.3K)
+Checking Rule AnalyzeBBox (Rule 285 of total 316) .... done (Time = 0.00s, Memory = 0.1K)
+Checking Rule ReportCheckDataSummary (Rule 71 of total 316) .... done (Time = 0.00s, Memory = 0.0K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.vdb' ....
+
+Generating moresimple_turbo report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_reports/moresimple_turbo.rpt' ....
+
+Generating no_msg_reporting_rules report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating ADV-LINT report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_reports/ADV-LINT.rpt' ....
+
+Generating auto_verify report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_reports/auto_verify.rpt' ....
+
+Policy specific data (reports) are present in the directory './Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_turbo_rtl/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_turbo_rtl
+   Command-line read  :      0 error,      1 warning,      1 information message 
+   Design Read        :      0 error,      8 warnings,     3 information messages
+      Found 1 top module:
+         Mod_Add_Sub   (file: /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy auto-verify :      0 error,      0 warning,      1 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      9 warnings,     5 information messages
+
+  Total Number of Generated Primary Messages          :        14 (0 error, 9 warnings, 5 Infos, 0 Data)
+  Total Number of Generated Secondary Messages        :         0 (0 error, 0 warning, 0 Info, 0 Data)
+  Number of Reported Primary Messages                 :        14 (0 error, 9 warnings, 5 Infos, 0 Data)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_turbo_rtl
+   Top Module         :      Mod_Add_Sub
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_turbo_rtl/ 
+
+   SpyGlass LogFile: 
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/Mod_Add_Sub/lint/lint_turbo_rtl/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     ADV-LINT.rpt          auto_verify.rpt          moresimple_turbo.rpt        
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      9 Warnings,      5 Infos
+---------------------------------------------------------------------------------------------------
+   
+   Technology Summary: Advanced_Lint   
+       Partially-proven properties = 0
+       Failed properties = 0
+---------------------------------------------------------------------------------------------------
+ 
+run_goal: info: spyglass.log successfully updated with goal summary
+run_goal: warning: save/restore disabled for the currently selected goal, design query data is not saved
+current_goal: info: loading goal `lint/lint_functional_rtl' with top `Mod_Add_Sub' (in progress)
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+current_goal: info: finished loading goal `lint/lint_functional_rtl' (ok)
+
+INFO:    SpyGlass will run goal(s) 'lint/lint_functional_rtl'.
+
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+
+INFO [216]    Disabling save-restore as save-restore is not allowed with policy 'auto-verify
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading auto-verify (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/auto-verify)
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+ Reading sgdc file "/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./Mod_Add_Sub/Mod_Add_Sub/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 5 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 6 of total 187) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 7 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 8 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 9 of total 187) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_require_path03 (Rule 10 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 11 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 12 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 13 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 14 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 15 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 16 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 17 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 18 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 19 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 20 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 21 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 22 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 23 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 24 of total 187) .... done (Time = 0.00s, Memory = -2.0K)
+Checking Rule SGDC_waive09 (Rule 25 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 26 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 27 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 28 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 29 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 30 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 31 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 32 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 33 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 34 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 35 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 36 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 37 of total 187) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_libgroup01 (Rule 38 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 39 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 40 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 41 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 42 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 43 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 44 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 45 of total 187) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port18 (Rule 46 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 47 of total 187) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule CMD_ignorelibs01 (Rule 48 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 49 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_license01 (Rule 50 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_setup_checks01 (Rule 51 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity01 (Rule 52 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 53 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 54 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv" ....
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv" ....
+ Elaborating Top Verilog Design Unit 'Mod_Add_Sub' ..... done
+Checking Rule ElabSummary (Rule 55 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 56 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 57 of total 187)
+ Detected 1 top level design units:
+     Mod_Add_Sub
+ .... done (Time = 0.00s, Memory = 4.4K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 58 of total 187) .... done (Time = 0.00s, Memory = 0.1K)
+Checking Rule ReportObsoletePragmas (Rule 59 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 60 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 61 of total 187) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 62 of total 187) .... done (Time = 0.00s, Memory = -0.8K)
+Checking Rule CheckCelldefine (Rule 63 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+    Checking Rule Av_multitop01 (Rule 64 of total 187) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule Av_multitop01 (Rule 65 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 66 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 67 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 68 of total 187) .... done (Time = 0.00s, Memory = 12.3K)
+    Checking Rule Av_fsmreq01 (Rule 69 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 70 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 71 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 72 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 73 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 74 of total 187) .... done (Time = 0.00s, Memory = 0.9K)
+    Checking Rule AnalyzeABV (Rule 75 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 76 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 77 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 78 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 79 of total 187) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 80 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 81 of total 187) .... done (Time = 0.00s, Memory = -0.5K)
+    Checking Rule _width02_prereq (Rule 82 of total 187) .... done (Time = 0.00s, Memory = 58.8K)
+    Checking Rule _width03_prereq (Rule 83 of total 187) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule _width04_prereq (Rule 84 of total 187) .... done (Time = 0.00s, Memory = 18.4K)
+    Checking Rule _signunsign01_prereq (Rule 85 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 86 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 87 of total 187) .... done (Time = 0.00s, Memory = 0.1K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 88 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 89 of total 187) .... done (Time = 0.00s, Memory = -0.1K)
+    Checking Rule _case_default_redundant_prereq (Rule 90 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 91 of total 187) .... done (Time = 0.00s, Memory = 1.3K)
+    Checking Rule _formallint_preReq (Rule 92 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 93 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+    Checking Rule Av_multitop01 (Rule 64 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 65 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 66 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 67 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 68 of total 187) .... done (Time = 0.00s, Memory = 4.5K)
+    Checking Rule Av_fsmreq01 (Rule 69 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 70 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 71 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 72 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 73 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 74 of total 187) .... done (Time = 0.00s, Memory = 0.9K)
+    Checking Rule AnalyzeABV (Rule 75 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veOperatorPreReq (Rule 76 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 77 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 78 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 79 of total 187) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 80 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 81 of total 187) .... done (Time = 0.00s, Memory = -8.0K)
+    Checking Rule _width02_prereq (Rule 82 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 83 of total 187) .... done (Time = 0.00s, Memory = -3.0K)
+    Checking Rule _width04_prereq (Rule 84 of total 187) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 85 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 86 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 87 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 88 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 89 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 90 of total 187) .... done (Time = 0.00s, Memory = -3.9K)
+    Checking Rule _case_default_missing_prereq (Rule 91 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 92 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 93 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv
+    Checking Rule Av_complexity_req01 (Rule 94 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv
+    Checking Rule Av_complexity_req01 (Rule 94 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+ Synthesizing module: carry_look_ahead_adder (elaborated name: carry_look_ahead_adder) ... (Module 1 of total 2)  done 
+ Synthesizing module: Mod_Add_Sub (elaborated name: Mod_Add_Sub) ... (Module 2 of total 2)  done 
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 95 of total 187) .... done (Time = 0.02s, Memory = -9.3K)
+Checking Rule SGDC_waive37 (Rule 96 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 97 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 98 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 99 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 100 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module carry_look_ahead_adder (Rule 101 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module carry_look_ahead_adder (Rule 102 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module carry_look_ahead_adder (Rule 103 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module carry_look_ahead_adder (Rule 104 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module carry_look_ahead_adder (Rule 105 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module Mod_Add_Sub (Rule 101 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module Mod_Add_Sub (Rule 102 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module Mod_Add_Sub (Rule 103 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module Mod_Add_Sub (Rule 104 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module Mod_Add_Sub (Rule 105 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 58 of total 187) .... done (Time = 0.00s, Memory = 0.1K)
+Checking Rule checkSGDC_01 (Rule 106 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 107 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 108 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 109 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset02 (Rule 110 of total 187) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule SGDC_reset03 (Rule 111 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 112 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 113 of total 187) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 114 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 115 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 116 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 117 of total 187) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule _abstractPortSGDC (Rule 118 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 119 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 120 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 121 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 122 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 123 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 124 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 125 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 126 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 127 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity_req02 (Rule 128 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 129 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 130 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq03 (Rule 131 of total 187) .... done (Time = 0.00s, Memory = -1.9K)
+Checking Rule SGDC_fsm_setup01 (Rule 132 of total 187) .... done (Time = 0.01s, Memory = -135.1K)
+Checking Rule Av_PortRetention (Rule 133 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_set_case_analysis_LC (Rule 134 of total 187) .... done (Time = 0.00s, Memory = 0.7K)
+Checking Rule Av_IpblockTaggedNet (Rule 135 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initseq01 (Rule 136 of total 187) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule Av_init01 (Rule 137 of total 187)
+ .... done (Time = 0.05s, Memory = 1775.1K)
+Checking Rule SGDC_av_meta_design_hier01 (Rule 138 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initstate01 (Rule 139 of total 187) .... done (Time = 0.03s, Memory = 405.1K)
+Checking Rule Av_sanity02 (Rule 140 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity06 (Rule 141 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _formal_anlysis_filter_prereq (Rule 142 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsmreq02 (Rule 143 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm03_prereq (Rule 144 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm_contr01 (Rule 145 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_width_mismatch_assign (Rule 146 of total 187) .... done (Time = 0.00s, Memory = -3.4K)
+Checking Rule Av_width_mismatch_case (Rule 147 of total 187) .... done (Time = 0.00s, Memory = -1.9K)
+Checking Rule Av_width_mismatch_port (Rule 148 of total 187) .... done (Time = 0.01s, Memory = -12.3K)
+Checking Rule Av_width_mismatch_function (Rule 149 of total 187) .... done (Time = 0.00s, Memory = 1.4K)
+Checking Rule Av_signed_unsigned_mismatch (Rule 150 of total 187) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule Av_width_mismatch_expr (Rule 151 of total 187) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule Av_width_mismatch_expr02 (Rule 152 of total 187) .... done (Time = 0.00s, Memory = 0.1K)
+Checking Rule Av_width_mismatch_expr03 (Rule 153 of total 187) .... done (Time = 0.01s, Memory = -1.9K)
+Checking Rule Av_dontcare_mismatch (Rule 154 of total 187) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule Av_case_default_redundant (Rule 155 of total 187) .... done (Time = 0.00s, Memory = -0.6K)
+Checking Rule Av_case_default_missing (Rule 156 of total 187) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Rule Av_Info_Case_Analysis (Rule 157 of total 187) .... done (Time = 0.00s, Memory = -7.3K)
+Checking Rule Av_report01 (Rule 158 of total 187) .... done (Time = 0.00s, Memory = 4.9K)
+Checking Rule _advLintReport01 (Rule 159 of total 187) .... done (Time = 0.00s, Memory = -276.5K)
+Checking Rule AnalyzeBBox (Rule 160 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 56 of total 187) .... done (Time = 0.00s, Memory = 0.0K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating ADV-LINT report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_reports/ADV-LINT.rpt' ....
+
+Generating auto_verify report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_reports/auto_verify.rpt' ....
+
+Policy specific data (reports) are present in the directory './Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_functional_rtl/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_functional_rtl
+   Command-line read  :      0 error,      1 warning,      1 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         Mod_Add_Sub   (file: /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy auto-verify :      0 error,      0 warning,      1 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      1 warning,      4 information messages
+
+  Total Number of Generated Messages     :         5 (0 error, 1 warning, 4 Infos)
+  Number of Reported Messages            :         5 (0 error, 1 warning, 4 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_functional_rtl
+   Top Module         :      Mod_Add_Sub
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_functional_rtl/ 
+
+   SpyGlass LogFile: 
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/Mod_Add_Sub/lint/lint_functional_rtl/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     ADV-LINT.rpt          auto_verify.rpt        
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      1 Warnings,      4 Infos
+---------------------------------------------------------------------------------------------------
+   
+   Technology Summary: Advanced_Lint   
+       Partially-proven properties = 0
+       Failed properties = 0
+---------------------------------------------------------------------------------------------------
+ 
+run_goal: info: spyglass.log successfully updated with goal summary
+run_goal: warning: save/restore disabled for the currently selected goal, design query data is not saved
+current_goal: info: loading goal `lint/lint_abstract' with top `Mod_Add_Sub' (in progress)
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+current_goal: info: finished loading goal `lint/lint_abstract' (ok)
+
+INFO:    SpyGlass will run goal(s) 'lint/lint_abstract'.
+
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading lint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lint)
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./Mod_Add_Sub/Mod_Add_Sub/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ElabSummary (Rule 5 of total 121) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_assume_path01 (Rule 6 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 7 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 8 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 9 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 10 of total 121) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_require_path03 (Rule 11 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 12 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 13 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 14 of total 121) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule SGDC_voltagedomain07 (Rule 15 of total 121) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 16 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 17 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 18 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 19 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 20 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 21 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 22 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 23 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 24 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 25 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 26 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 27 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 28 of total 121) .... done (Time = 0.00s, Memory = -2.0K)
+Checking Rule SGDC_waive12 (Rule 29 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 30 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 31 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 32 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 33 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 34 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 35 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 36 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 37 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 38 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup01 (Rule 39 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 40 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 41 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 42 of total 121) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_ungroup01 (Rule 43 of total 121) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule SGDC_abstract_port06 (Rule 44 of total 121) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_abstract_port14 (Rule 45 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 46 of total 121) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port18 (Rule 47 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 48 of total 121) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule CMD_ignorelibs01 (Rule 49 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 50 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass_spysch/waiver/pragma2Waiver.swl" ...
+ Reading included SGDC file "./Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass_spysch/waiver/pragma2Waiver_varfile.swl" ....
+Checking Rule ReportStopSummary (Rule 51 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 52 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+
+INFO [235]    Restoring design database from directory './Mod_Add_Sub/Mod_Add_Sub/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
+              done
+
+Checking Rule InferBlackBox (Rule 53 of total 121) .... done (Time = 0.00s, Memory = 0.1K)
+Checking Rule SGDC_waive37 (Rule 54 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 55 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 56 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 57 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 58 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule DetectTopDesignUnits (Rule 59 of total 121)
+ Detected 1 top level design units:
+     Mod_Add_Sub
+ .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule GenerateConfMap (Rule 60 of total 121) .... done (Time = 0.00s, Memory = 0.4K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 61 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 62 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 63 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 64 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 65 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 66 of total 121) .... done (Time = 0.00s, Memory = 15.0K)
+Checking Rule SGDC_reset02 (Rule 67 of total 121) .... done (Time = 0.00s, Memory = 14.6K)
+Checking Rule SGDC_reset03 (Rule 68 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 69 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 70 of total 121) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 71 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 72 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 73 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 74 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 75 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 76 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 77 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 78 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 79 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 80 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 81 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 82 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 83 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 84 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 85 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LINT_portReten (Rule 86 of total 121) .... done (Time = 0.00s, Memory = 5.7K)
+Checking Rule SGDC_abstract_port21 (Rule 87 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_set_case_analysis_LC (Rule 88 of total 121) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LINT_abstract01 (Rule 89 of total 121) .... done (Time = 0.12s, Memory = 2413.7K)
+Checking Rule AnalyzeBBox (Rule 90 of total 121) .... done (Time = 0.00s, Memory = 1.8K)
+Checking Rule ReportCheckDataSummary (Rule 91 of total 121) .... done (Time = 0.00s, Memory = 0.4K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_abstract/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_abstract
+   Command-line read  :      0 error,      0 warning,      1 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         Mod_Add_Sub   (file: /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy lint        :      0 error,      0 warning,      1 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      0 warning,      4 information messages
+
+  Total Number of Generated Messages     :         4 (0 error, 0 warning, 4 Infos)
+  Number of Reported Messages            :         4 (0 error, 0 warning, 4 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      lint/lint_abstract
+   Top Module         :      Mod_Add_Sub
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_lint_lint_abstract/ 
+
+   SpyGlass LogFile: 
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/Mod_Add_Sub/lint/lint_abstract/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     <Not Available>
+   
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      0 Warnings,      4 Infos
+---------------------------------------------------------------------------------------------------
+   
+---------------------------------------------------------------------------------------------------
+ 
+run_goal: info: spyglass.log successfully updated with goal summary
+current_goal: info: loading goal `adv_lint/adv_lint_struct' with top `Mod_Add_Sub' (in progress)
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+current_goal: info: finished loading goal `adv_lint/adv_lint_struct' (ok)
+
+INFO:    SpyGlass will run goal(s) 'adv_lint/adv_lint_struct'.
+
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+
+INFO [216]    Disabling save-restore as save-restore is not allowed with policy 'auto-verify
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading auto-verify (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/auto-verify)
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+ Reading sgdc file "/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./Mod_Add_Sub/Mod_Add_Sub/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 188) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 5 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 6 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 7 of total 188) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule SGDC_clock09 (Rule 8 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 9 of total 188) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_require_path03 (Rule 10 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 11 of total 188) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule SGDC_voltagedomain05 (Rule 12 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 13 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 14 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 15 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 16 of total 188) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_waive01 (Rule 17 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 18 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 19 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 20 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 21 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 22 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 23 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 24 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 25 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 26 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 27 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 28 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 29 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 30 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 31 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 32 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 33 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 34 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 35 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 36 of total 188) .... done (Time = 0.00s, Memory = 3.1K)
+Checking Rule SGDC_fifo01 (Rule 37 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup01 (Rule 38 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 39 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 40 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 41 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 42 of total 188) .... done (Time = 0.00s, Memory = -0.1K)
+Checking Rule SGDC_abstract_port06 (Rule 43 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 44 of total 188) .... done (Time = 0.00s, Memory = -0.3K)
+Checking Rule SGDC_abstract_port15 (Rule 45 of total 188) .... done (Time = 0.00s, Memory = -27.0K)
+Checking Rule SGDC_abstract_port18 (Rule 46 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 47 of total 188) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule CMD_ignorelibs01 (Rule 48 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 49 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_license01 (Rule 50 of total 188) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule Av_setup_checks01 (Rule 51 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity01 (Rule 52 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 53 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 54 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv" ....
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv" ....
+ Elaborating Top Verilog Design Unit 'Mod_Add_Sub' ..... done
+Checking Rule ElabSummary (Rule 55 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 56 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 57 of total 188)
+ Detected 1 top level design units:
+     Mod_Add_Sub
+ .... done (Time = 0.00s, Memory = 2.5K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 58 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 59 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 60 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 61 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 62 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 63 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+    Checking Rule Av_multitop01 (Rule 64 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 65 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 66 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 67 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 68 of total 188) .... done (Time = 0.00s, Memory = 7.9K)
+    Checking Rule Av_fsmreq01 (Rule 69 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 70 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 71 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 72 of total 188) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule Av_deadreq01 (Rule 73 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 74 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule AnalyzeABV (Rule 75 of total 188) .... done (Time = 0.00s, Memory = 7.3K)
+    Checking Rule veOperatorPreReq (Rule 76 of total 188) .... done (Time = 0.00s, Memory = 0.4K)
+    Checking Rule veShiftOperatorPreReq (Rule 77 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 78 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 79 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 80 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 81 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 82 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 83 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 84 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 85 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 86 of total 188) .... done (Time = 0.00s, Memory = 1.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 87 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 88 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 89 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 90 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 91 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 92 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 93 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+    Checking Rule Av_multitop01 (Rule 64 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 65 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 66 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule InitState (Rule 67 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 68 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 69 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 70 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 71 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 72 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 73 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 74 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule AnalyzeABV (Rule 75 of total 188) .... done (Time = 0.00s, Memory = 21.3K)
+    Checking Rule veOperatorPreReq (Rule 76 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 77 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 78 of total 188) .... done (Time = 0.00s, Memory = 0.3K)
+    Checking Rule Av_dcreq01 (Rule 79 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 80 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 81 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 82 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 83 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 84 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 85 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 86 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 87 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 88 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 89 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 90 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 91 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 92 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 93 of total 188) .... done (Time = 0.00s, Memory = 3.9K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv
+    Checking Rule Av_complexity_req01 (Rule 94 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv
+    Checking Rule Av_complexity_req01 (Rule 94 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Synthesizing module: carry_look_ahead_adder (elaborated name: carry_look_ahead_adder) ... (Module 1 of total 2)  done 
+ Synthesizing module: Mod_Add_Sub (elaborated name: Mod_Add_Sub) ... (Module 2 of total 2)  done 
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 95 of total 188) .... done (Time = 0.01s, Memory = -8.1K)
+Checking Rule SGDC_waive37 (Rule 96 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 97 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 98 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 99 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 100 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module carry_look_ahead_adder (Rule 101 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module carry_look_ahead_adder (Rule 102 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module carry_look_ahead_adder (Rule 103 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module carry_look_ahead_adder (Rule 104 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module carry_look_ahead_adder (Rule 105 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module Mod_Add_Sub (Rule 101 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module Mod_Add_Sub (Rule 102 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module Mod_Add_Sub (Rule 103 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module Mod_Add_Sub (Rule 104 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module Mod_Add_Sub (Rule 105 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 58 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 106 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 107 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 108 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 109 of total 188) .... done (Time = 0.00s, Memory = 3.1K)
+Checking Rule SGDC_reset02 (Rule 110 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_reset03 (Rule 111 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 112 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 113 of total 188) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 114 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 115 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 116 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 117 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 118 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 119 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 120 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 121 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 122 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 123 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 124 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 125 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 126 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 127 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity_req02 (Rule 128 of total 188) .... done (Time = 0.00s, Memory = 17.5K)
+Checking Rule ReportUngroup (Rule 129 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 130 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq03 (Rule 131 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fsm_setup01 (Rule 132 of total 188) .... done (Time = 0.00s, Memory = -153.2K)
+Checking Rule Av_PortRetention (Rule 133 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_set_case_analysis_LC (Rule 134 of total 188) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule Av_IpblockTaggedNet (Rule 135 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initseq01 (Rule 136 of total 188) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule Av_init01 (Rule 137 of total 188)
+ .... done (Time = 0.06s, Memory = 1784.4K)
+Checking Rule SGDC_av_meta_design_hier01 (Rule 138 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initstate01 (Rule 139 of total 188) .... done (Time = 0.05s, Memory = 402.5K)
+Checking Rule Av_sanity02 (Rule 140 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Av_sanity06 (Rule 141 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _formal_anlysis_filter_prereq (Rule 142 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsmreq02 (Rule 143 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm03_prereq (Rule 144 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm_contr01 (Rule 145 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsminf01 (Rule 146 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsminf02 (Rule 147 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsm_analysis (Rule 148 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity01 (Rule 149 of total 188) .... done (Time = 0.00s, Memory = 1.8K)
+Checking Rule Av_bus01 (Rule 150 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_bus02 (Rule 151 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_case01 (Rule 152 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_case02 (Rule 153 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadcode01 (Rule 154 of total 188) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Av_range01 (Rule 155 of total 188)
+Verifying rule Av_range01: 18 checks
+100% time spent, 0%(0) assertions proved, 0%(0) failed, 0%(0) partially proved, 100%(18) others .... done (Time = 0.01s, Memory = -5.7K)
+Checking Rule Av_divide_by_zero (Rule 156 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dontcare01 (Rule 157 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_Info_Case_Analysis (Rule 158 of total 188) .... done (Time = 0.01s, Memory = 7.8K)
+Checking Rule Av_report01 (Rule 159 of total 188) .... done (Time = 0.00s, Memory = 4.2K)
+Checking Rule _advLintReport01 (Rule 160 of total 188) .... done (Time = 0.00s, Memory = -288.1K)
+Checking Rule AnalyzeBBox (Rule 161 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 56 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating ADV-LINT report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/ADV-LINT.rpt' ....
+
+Generating auto_verify report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/auto_verify.rpt' ....
+
+Policy specific data (reports) are present in the directory './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_adv_lint_adv_lint_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      adv_lint/adv_lint_struct
+   Command-line read  :      0 error,      1 warning,      1 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         Mod_Add_Sub   (file: /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy auto-verify :      0 error,      0 warning,      4 information messages
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      1 warning,      7 information messages
+
+  Total Number of Generated Messages     :         8 (0 error, 1 warning, 7 Infos)
+  Number of Reported Messages            :         8 (0 error, 1 warning, 7 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      adv_lint/adv_lint_struct
+   Top Module         :      Mod_Add_Sub
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_adv_lint_adv_lint_struct/ 
+
+   SpyGlass LogFile: 
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     ADV-LINT.rpt          auto_verify.rpt        
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      1 Warnings,      7 Infos
+---------------------------------------------------------------------------------------------------
+   
+   Technology Summary: Advanced_Lint   
+       Partially-proven properties = 0
+       Failed properties = 0
+       Maximum cyclomatic complexity = 7
+---------------------------------------------------------------------------------------------------
+ 
+run_goal: info: spyglass.log successfully updated with goal summary
+run_goal: warning: save/restore disabled for the currently selected goal, design query data is not saved
+current_goal: warning: goal `adv_lint/adv_lint_struct' is already selected with top `Mod_Add_Sub' - ignoring this command
+
+INFO:    SpyGlass will run goal(s) 'adv_lint/adv_lint_struct'.
+
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+
+INFO [216]    Disabling save-restore as save-restore is not allowed with policy 'auto-verify
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading auto-verify (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/auto-verify)
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+ Reading sgdc file "/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/auxi/policy_data/auto-verify/verif.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./Mod_Add_Sub/Mod_Add_Sub/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule PrecompileLibCheck01 (Rule 1 of total 188) .... done (Time = 0.00s, Memory = -5.2K)
+Checking Rule PrecompileLibCheck02 (Rule 2 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 3 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 4 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 5 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 6 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 7 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 8 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 9 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_require_path03 (Rule 10 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 11 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 12 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 13 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 14 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 15 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 16 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 17 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 18 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 19 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 20 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 21 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 22 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 23 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 24 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 25 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 26 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 27 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 28 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 29 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 30 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 31 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 32 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 33 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 34 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 35 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 36 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 37 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_libgroup01 (Rule 38 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 39 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 40 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_power_data01 (Rule 41 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 42 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 43 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 44 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 45 of total 188) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port18 (Rule 46 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule sdc_init_rule (Rule 47 of total 188) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule CMD_ignorelibs01 (Rule 48 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 49 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_license01 (Rule 50 of total 188) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule Av_setup_checks01 (Rule 51 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity01 (Rule 52 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 53 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 54 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv" ....
+ Analyzing source file "/home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv" ....
+ Elaborating Top Verilog Design Unit 'Mod_Add_Sub' ..... done
+Checking Rule ElabSummary (Rule 55 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 56 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 57 of total 188)
+ Detected 1 top level design units:
+     Mod_Add_Sub
+ .... done (Time = 0.00s, Memory = 5.6K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 58 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 59 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 60 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 61 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 62 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 63 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+Checking ELABDU Rules for designUnit Mod_Add_Sub
+    Checking Rule Av_multitop01 (Rule 64 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 65 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 66 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 67 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 68 of total 188) .... done (Time = 0.00s, Memory = 10.4K)
+    Checking Rule Av_fsmreq01 (Rule 69 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 70 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 71 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 72 of total 188) .... done (Time = 0.00s, Memory = 0.6K)
+    Checking Rule Av_deadreq01 (Rule 73 of total 188) .... done (Time = 0.00s, Memory = 0.9K)
+    Checking Rule Av_deadreq01 (Rule 74 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 75 of total 188) .... done (Time = 0.00s, Memory = 3.4K)
+    Checking Rule veOperatorPreReq (Rule 76 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 77 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 78 of total 188) .... done (Time = 0.00s, Memory = 4.0K)
+    Checking Rule Av_dcreq01 (Rule 79 of total 188) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 80 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 81 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 82 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 83 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 84 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 85 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 86 of total 188) .... done (Time = 0.00s, Memory = 0.9K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 87 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 88 of total 188) .... done (Time = 0.00s, Memory = 0.6K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 89 of total 188) .... done (Time = 0.00s, Memory = -1.8K)
+    Checking Rule _case_default_redundant_prereq (Rule 90 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 91 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 92 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 93 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit carry_look_ahead_adder
+    Checking Rule Av_multitop01 (Rule 64 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_multitop01 (Rule 65 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 66 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule InitState (Rule 67 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 68 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_fsmreq01 (Rule 69 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 70 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_rstreq01 (Rule 71 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_casereq01 (Rule 72 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 73 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_deadreq01 (Rule 74 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AnalyzeABV (Rule 75 of total 188) .... done (Time = 0.00s, Memory = 24.3K)
+    Checking Rule veOperatorPreReq (Rule 76 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule veShiftOperatorPreReq (Rule 77 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 78 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Av_dcreq01 (Rule 79 of total 188) .... done (Time = 0.00s, Memory = 0.5K)
+    Checking Rule _chk_signed_unsigned_prereq (Rule 80 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width01_prereq (Rule 81 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width02_prereq (Rule 82 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width03_prereq (Rule 83 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width04_prereq (Rule 84 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _signunsign01_prereq (Rule 85 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width05_prereq (Rule 86 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _width_expr02_mismatch_prereq (Rule 87 of total 188) .... done (Time = 0.00s, Memory = -5.4K)
+    Checking Rule _width_expr03_mismatch_prereq (Rule 88 of total 188) .... done (Time = 0.00s, Memory = 0.2K)
+    Checking Rule _dontcare_mismatch_prereq (Rule 89 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_redundant_prereq (Rule 90 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _case_default_missing_prereq (Rule 91 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _formallint_preReq (Rule 92 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule _avAddSynthNet (Rule 93 of total 188) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv
+    Checking Rule Av_complexity_req01 (Rule 94 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Lexical Rules for file /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv
+    Checking Rule Av_complexity_req01 (Rule 94 of total 188) .... done (Time = 0.00s, Memory = 3.1K)
+ Synthesizing module: carry_look_ahead_adder (elaborated name: carry_look_ahead_adder) ... (Module 1 of total 2)  done 
+ Synthesizing module: Mod_Add_Sub (elaborated name: Mod_Add_Sub) ... (Module 2 of total 2)  done 
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 95 of total 188) .... done (Time = 0.00s, Memory = -7.5K)
+Checking Rule SGDC_waive37 (Rule 96 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 97 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 98 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 99 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 100 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module carry_look_ahead_adder (Rule 101 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module carry_look_ahead_adder (Rule 102 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module carry_look_ahead_adder (Rule 103 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module carry_look_ahead_adder (Rule 104 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module carry_look_ahead_adder (Rule 105 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_svasetup01 for module Mod_Add_Sub (Rule 101 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_casereq02 for module Mod_Add_Sub (Rule 102 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadfilter01 for module Mod_Add_Sub (Rule 103 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dcreq02 for module Mod_Add_Sub (Rule 104 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_staticnetnreq01 for module Mod_Add_Sub (Rule 105 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 58 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 106 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 107 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_08 (Rule 108 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 109 of total 188) .... done (Time = 0.00s, Memory = 3.1K)
+Checking Rule SGDC_reset02 (Rule 110 of total 188) .... done (Time = 0.00s, Memory = 0.5K)
+Checking Rule SGDC_reset03 (Rule 111 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 112 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 113 of total 188) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 114 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 115 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 116 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 117 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 118 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 119 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 120 of total 188) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule SGDC_abstract_port05 (Rule 121 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 122 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 123 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 124 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port11 (Rule 125 of total 188) .... done (Time = 0.00s, Memory = 0.9K)
+Checking Rule SGDC_abstract_port12 (Rule 126 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 127 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity_req02 (Rule 128 of total 188) .... done (Time = 0.00s, Memory = 18.3K)
+Checking Rule ReportUngroup (Rule 129 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 130 of total 188) .... done (Time = 0.00s, Memory = 0.9K)
+Checking Rule Av_casereq03 (Rule 131 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fsm_setup01 (Rule 132 of total 188) .... done (Time = 0.01s, Memory = -152.9K)
+Checking Rule Av_PortRetention (Rule 133 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_set_case_analysis_LC (Rule 134 of total 188) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule Av_IpblockTaggedNet (Rule 135 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Av_initseq01 (Rule 136 of total 188) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule Av_init01 (Rule 137 of total 188)
+ .... done (Time = 0.02s, Memory = 1785.0K)
+Checking Rule SGDC_av_meta_design_hier01 (Rule 138 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_initstate01 (Rule 139 of total 188) .... done (Time = 0.04s, Memory = 399.6K)
+Checking Rule Av_sanity02 (Rule 140 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_sanity06 (Rule 141 of total 188) .... done (Time = 0.00s, Memory = -0.3K)
+Checking Rule _formal_anlysis_filter_prereq (Rule 142 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsmreq02 (Rule 143 of total 188) .... done (Time = 0.00s, Memory = -3.0K)
+Checking Rule _fsm03_prereq (Rule 144 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fsm_contr01 (Rule 145 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsminf01 (Rule 146 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsminf02 (Rule 147 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_fsm_analysis (Rule 148 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_complexity01 (Rule 149 of total 188) .... done (Time = 0.00s, Memory = 1.1K)
+Checking Rule Av_bus01 (Rule 150 of total 188) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Av_bus02 (Rule 151 of total 188) .... done (Time = 0.00s, Memory = -5.9K)
+Checking Rule Av_case01 (Rule 152 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_case02 (Rule 153 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_deadcode01 (Rule 154 of total 188) .... done (Time = 0.00s, Memory = 32.2K)
+Checking Rule Av_range01 (Rule 155 of total 188)
+Verifying rule Av_range01: 18 checks
+100% time spent, 0%(0) assertions proved, 0%(0) failed, 0%(0) partially proved, 100%(18) others .... done (Time = 0.00s, Memory = 6.2K)
+Checking Rule Av_divide_by_zero (Rule 156 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_dontcare01 (Rule 157 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Av_Info_Case_Analysis (Rule 158 of total 188) .... done (Time = 0.00s, Memory = 7.0K)
+Checking Rule Av_report01 (Rule 159 of total 188) .... done (Time = 0.00s, Memory = 5.0K)
+Checking Rule _advLintReport01 (Rule 160 of total 188) .... done (Time = 0.00s, Memory = -288.7K)
+Checking Rule AnalyzeBBox (Rule 161 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 56 of total 188) .... done (Time = 0.00s, Memory = 0.0K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating ADV-LINT report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/ADV-LINT.rpt' ....
+
+Generating auto_verify report from './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.vdb' to './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/auto_verify.rpt' ....
+
+Policy specific data (reports) are present in the directory './Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_adv_lint_adv_lint_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      adv_lint/adv_lint_struct
+   Command-line read  :      0 error,      1 warning,      1 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         Mod_Add_Sub   (file: /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy auto-verify :      0 error,      0 warning,      4 information messages
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      1 warning,      7 information messages
+
+  Total Number of Generated Messages     :         8 (0 error, 1 warning, 7 Infos)
+  Number of Reported Messages            :         8 (0 error, 1 warning, 7 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      adv_lint/adv_lint_struct
+   Top Module         :      Mod_Add_Sub
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/consolidated_reports/Mod_Add_Sub_adv_lint_adv_lint_struct/ 
+
+   SpyGlass LogFile: 
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+    /home/ICer/Projects/MOD_ADD_SUB/spyglass/Mod_Add_Sub/html_reports/goals_summary.html
+  
+
+   Technology Reports:  
+     ADV-LINT.rpt          auto_verify.rpt        
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      1 Warnings,      7 Infos
+---------------------------------------------------------------------------------------------------
+   
+   Technology Summary: Advanced_Lint   
+       Partially-proven properties = 0
+       Failed properties = 0
+       Maximum cyclomatic complexity = 7
+---------------------------------------------------------------------------------------------------
+ 
+run_goal: info: spyglass.log successfully updated with goal summary
+run_goal: warning: save/restore disabled for the currently selected goal, design query data is not saved
+gui_start: info: saving project `Mod_Add_Sub.prj'
+gui_start: info: closing project `Mod_Add_Sub.prj'
+gui_start: info: launching GUI
+Warning: QGtkStyle was unable to detect the current GTK+ theme.
+gui_start: info: re-opening project `Mod_Add_Sub.prj'
+read_file -type hdl /home/ICer/Projects/MOD_ADD_SUB/src/carry_look_ahead_adder.sv
+read_file -type hdl /home/ICer/Projects/MOD_ADD_SUB/src/Mod_Add_Sub.sv
+current_methodology: info: methodology is now `/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff'
+current_goal: info: loading goal `connectivity_verify/connectivity_verification' with top `Mod_Add_Sub' (in progress)
+
+INFO [387]    Option 'hdlin_translate_off_skip_text' specification is redundant as it is enabled by default
+ Reading sgdc file "SGDC/Mod_Add_Sub.sgdc" ...
+ Reading waiver file "./Mod_Add_Sub/Mod_Add_Sub/connectivity_verify/connectivity_verification/spyglass_spysch/waiver/pragma2Waiver.swl" ...
+ Reading included SGDC file "./Mod_Add_Sub/Mod_Add_Sub/connectivity_verify/connectivity_verification/spyglass_spysch/waiver/pragma2Waiver_varfile.swl" ....
+current_goal: info: restoring synthesized design view ...
+current_goal: info: setting design top `Mod_Add_Sub' as current_design
+current_goal: info: synthesized design view restored successfully (Time = 0.11s, Memory = 95008.4K)
+current_goal: info: creating flat root from saved information for module `Mod_Add_Sub' ...
+ Flattening Mod_Add_Sub (.lib instances separately flattened) ....
+ Flattening completed
+current_goal: info: flat root created successfully for module `Mod_Add_Sub' (Time = 0.09s, Memory = 6262.3K)
+current_goal: info: finished loading goal `connectivity_verify/connectivity_verification' (ok)
