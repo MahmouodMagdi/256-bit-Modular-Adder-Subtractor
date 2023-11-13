@@ -2,8 +2,12 @@
 Hardware Implementation of a 256-bit Pipelined Modular Adder/Subtractor which is used for Elliptic Curve Cryptography Scalar Multiplication "ECSM" Operations 
  
 ### Modular addition/subtraction algorithm
-- Steps from 2 :7 represent the modular addition operatio and the steps 10 : 15 represent the modular subtraction
+- Steps from 2 :7 represent the modular addition operation and the steps 10 : 15 represent the modular subtraction
 - The SEL_OP selects which to perform: 0 --> for addition & 1 --> for subtraction
+  
+  |   SEL_OP  |       0      |        1        |
+  | Operation |   Additoin   |   Subtraction   |
+
 
 ```
 Input: a, b ∈ [0, p − 1], p and SEL_OP
