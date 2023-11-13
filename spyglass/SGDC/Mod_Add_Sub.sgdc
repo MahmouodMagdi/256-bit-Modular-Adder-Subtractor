@@ -1,0 +1,22 @@
+current_design Mod_Add_Sub
+
+clock -name i_clk -domain DomianA -tag clk -period 10 -waveform {0 5}
+reset -async -name i_rst_n -value 0
+#set_case_analysis  -name <port | pin | net>  -value <value>
+#	Value automatically propagated through the design
+#quasi_static –name <port | pin | reg | net>
+#Some ports, flops, or nets may change but receiver clock is off or is in reset and assume static value for rest of time
+#Synchronization checks understand quasi_static crossings do not require synchronizers
+#abstract_port  -ports <port_name>  -clocks <clock_name> [many other CDC attributes covered later]
+#Defines port to clock relationship and other CDC related attributes
+#clock_sense –pins <pins list> [ -tag <tag-names> ]
+#stops all clocks or a specific –tag clock name 
+#cdc_attribute [ -exclusive <mutually-exclusive-signal-names> ] | [ -unrelated <unrelated-signal-names> ]
+#specify mutually exclusive and unrelated signals such that glitch issues are filtered if the specified signals are on a control crossing
+#qualifier -name | -enable <expression [-ignore] [to/from clocks, domains, objects, src/dest]  
+#Manually define what makes a CDC/RDC a safe transfer. (Details later).
+#clock_relation -phase <inv | noninv |any> –from_clk <src-clock> / –from_obj <src-clock-path-point> –to_clk <dest-clock> / –to_obj <dest-clock-path-point> -ref <ref-net> -edges <n>
+#reset_filter_path [-from_rst <frm-rst-list>] [ -to_rst <to-rst-list> ] [ -to_clock <destination-clock-obj-list> ] [ -from_clock <source-clock-obj-list> ] [ -from_obj <from-obj-list> ] #[ -to_obj <to-obj-list> ] [ -type <rdc | sync | deassert | reset_sync02> ]
+#Location of SDC file for sdc2sgdc conversion defined using sdc_data SGDC constraint
+#sdc_data –name my.sdc
+
