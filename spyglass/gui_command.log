@@ -1,0 +1,36 @@
+capture ./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/summary.rpt {write_report summary}
+capture ./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/spyglass_violations.rpt {write_report spyglass_violations}
+capture ./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/elab_summary.rpt {write_report elab_summary}
+capture ./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/ADV-LINT.rpt {write_report ADV-LINT}
+capture ./Mod_Add_Sub/Mod_Add_Sub/adv_lint/adv_lint_struct/spyglass_reports/auto_verify.rpt {write_report auto_verify}
+
+
+current_goal adv_lint/adv_lint_struct -top Mod_Add_Sub
+run_goal
+current_goal rtl2netlist/rtl2netlist_migration -top Mod_Add_Sub
+run_goal
+current_goal connectivity_verify/connectivity_verification -top Mod_Add_Sub
+run_goal
+current_goal adv_lint/adv_lint_struct -top Mod_Add_Sub
+
+
+
+
+
+
+
+
+
+current_goal connectivity_verify/connectivity_verification -top Mod_Add_Sub
+run_goal
+
+
+
+source Mod_Add_Sub/Mod_Add_Sub/connectivity_verify/connectivity_verification/spyglass_spysch/dft/auto_run_cmds
+source Mod_Add_Sub/Mod_Add_Sub/connectivity_verify/connectivity_verification/spyglass_spysch/dft/auto_run_cmds
+
+write_aggregate_report html -config_file /tmp/config_126150 -reportdir ./Mod_Add_Sub/html_reports/
+capture ./Mod_Add_Sub/Mod_Add_Sub/connectivity_verify/connectivity_verification/spyglass_reports/score.rpt {write_report score}
+save_project
+gui_exit
+gui_exit
