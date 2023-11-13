@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : Mod_Add_Sub
+Version: O-2018.06-SP1
+Date   : Sun Nov 12 00:34:36 2023
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/Projects/tsmc_fb_cl013g_sc/aci/sc-m/synopsys/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                         1027
+Number of nets:                          8348
+Number of cells:                         7577
+Number of combinational cells:           5524
+Number of sequential cells:              2053
+Number of macros/black boxes:               0
+Number of buf/inv:                        970
+Number of references:                      50
+
+Combinational area:              39094.681138
+Buf/Inv area:                     3718.372092
+Noncombinational area:           53146.831530
+Macro/Black Box area:                0.000000
+Net Interconnect area:         2520289.457977
+
+Total cell area:                 92241.512668
+Total area:                    2612530.970645
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  ---------
+Mod_Add_Sub                       92241.5127    100.0  39094.6811  53146.8315  0.0000  Mod_Add_Sub
+--------------------------------  ----------  -------  ----------  ----------  ------  ---------
+Total                                                  39094.6811  53146.8315  0.0000
+
+1

@@ -1,0 +1,50 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : Mod_Add_Sub
+Version: O-2018.06-SP1
+Date   : Sun Nov 12 00:34:36 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c   Library: scmetro_tsmc_cl013g_rvt_ff_1p32v_m40c
+Wire Load Model Mode: top
+
+  Startpoint: cout_1_reg_1_reg
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: cout_1_reg_2_reg
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Mod_Add_Sub        tsmc13_wl30           scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  cout_1_reg_1_reg/CK (DFFRQX1M)           0.00 #     0.00 r
+  cout_1_reg_1_reg/Q (DFFRQX1M)            0.65       0.65 f
+  cout_1_reg_2_reg/D (DFFRQX1M)            0.00       0.65 f
+  data arrival time                                   0.65
+
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.10       0.10
+  cout_1_reg_2_reg/CK (DFFRQX1M)           0.00       0.10 r
+  library hold time                       -0.05       0.05
+  data required time                                  0.05
+  -----------------------------------------------------------
+  data required time                                  0.05
+  data arrival time                                  -0.65
+  -----------------------------------------------------------
+  slack (MET)                                         0.61
+
+
+1

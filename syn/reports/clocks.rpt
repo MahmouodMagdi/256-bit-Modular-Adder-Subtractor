@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : clocks
+Design : Mod_Add_Sub
+Version: O-2018.06-SP1
+Date   : Sun Nov 12 00:34:36 2023
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+CLK             10.00   {0 5}                         {i_clk}
+--------------------------------------------------------------------------------
+1
