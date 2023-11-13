@@ -7,7 +7,7 @@ Hardware Implementation of a 256-bit Pipelined Modular Adder/Subtractor which is
 
 | SEL_OP  | Performed Operation |
 | ------------- | ------------- |
-|  0  | Additoin  |
+|  0  | Addition  |
 |  1  | Subtraction  |
 
 ```
